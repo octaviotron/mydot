@@ -1,5 +1,5 @@
 apt update
-apt install vim links2 git net-tools whois bind9utils dnsutils nmap
+apt install vim links2 git net-tools whois bind9utils dnsutils nmap htop
 
 echo "set tabstop=4 shiftwidth=4 noexpandtab" >> /etc/vim/vimrc
 sed -i -e 's/set mouse.*/set mouse-=a/' /usr/share/vim/vim81/defaults.vim
