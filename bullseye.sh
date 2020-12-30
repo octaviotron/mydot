@@ -9,7 +9,6 @@ export HISTTIMEFORMAT="%d/%m/%y %T "
 echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> /etc/profile
 echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> /root/.bashrc
 echo 'export PS1="\[\033[1;0m\][\[\033[1;31m\]\u\[\033[1;0m\]@\[\033[1;34m\]\h\[\033[1;0m\]] \[\033[1;32m\]\w\[\033[1;0m\]\n# \[\033[0m\]"' >> /root/.bashrc
- >> /root/.bashrc
 echo "alias ll='ls \$LS_OPTIONS -lh'" >> /etc/profile 
 source .bashrc
 
