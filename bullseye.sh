@@ -1,9 +1,9 @@
 apt update
-apt install vim links2 gpm git net-tools whois bind9utils dnsutils nmap htop locate gnupg2
+apt install vim git net-tools whois bind9utils dnsutils htop locate gnupg2
 
 echo "set tabstop=4 shiftwidth=4 noexpandtab" >> /etc/vim/vimrc
-sed -i -e 's/set mouse.*/set mouse-=a/' /usr/share/vim/vim81/defaults.vim
-sed -i -e 's/filetype plugin indent.*/filetype plugin indent off/' /usr/share/vim/vim81/defaults.vim
+sed -i -e 's/set mouse.*/set mouse-=a/' /usr/share/vim/vim82/defaults.vim
+sed -i -e 's/filetype plugin indent.*/filetype plugin indent off/' /usr/share/vim/vim82/defaults.vim
 
 export HISTTIMEFORMAT="%d/%m/%y %T "
 echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> /etc/profile
